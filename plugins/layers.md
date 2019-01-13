@@ -22,8 +22,8 @@ For more information on how to override theme functions in your layer class decl
 
 Within a plugin's layer PHP file, the following pseudo-constants (substituted for strings at runtime) might prove useful:
 
-1.  `QA_HTML_THEME_LAYER_DIRECTORY` contains the full local path of the plugin directory. This can be used as a prefix for `include` statements within the layer's code.
-2.  `QA_HTML_THEME_LAYER_URLTOROOT` contains the URL of the plugin directory, relative to the current page request. If the layer outputs HTML that references other files (such as images) within the plugin directory, this prefix should be used for the corresponding URLs.
+1. `QA_HTML_THEME_LAYER_DIRECTORY` contains the full local path of the plugin directory. This can be used as a prefix for `include` statements within the layer's code.
+2. `QA_HTML_THEME_LAYER_URLTOROOT` contains the URL of the plugin directory, relative to the current page request. If the layer outputs HTML that references other files (such as images) within the plugin directory, this prefix should be used for the corresponding URLs.
 
 Below is an example layer which makes four changes to the standard theme. First, it removes the login and register links if they are to be displayed. Second, it includes a Javascript file from the plugin's directory on question pages. Third, it displays all question tags in alphabetical order. Fourth, it shows the usernames of specifically priviliged users in italics.
 
@@ -32,14 +32,14 @@ Below is an example layer which makes four changes to the standard theme. First,
 
 class qa_html_theme_layer extends qa_html_theme_base
 {
-    function nav_list($navigation, $navtype) // remove login and register links
+    function nav_list($navigation, $navtype, $level = null) // remove login and register links
     {
-        if ($navtype=='user') {
+        if ($navtype=='nav-user') {
             unset($navigation['login']);
             unset($navigation['register']);
         }
 
-        qa_html_theme_base::nav_list($navigation, $navtype);
+        qa_html_theme_base::nav_list($navigation, $navtype, $level);
     }
 
     function head_script() // add a Javascript file from plugin directory
