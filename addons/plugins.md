@@ -172,6 +172,7 @@ To install a plugin (requires Q2A 1.3 or later), place its directory in Q2A's `q
 - [KeyCAPTCHA Captcha](https://github.com/spd-name/q2a-captcha-keycaptcha) by [Andrey Gvosdev](http://spd.name). Provides the [KeyCAPTCHA](https://www.keycaptcha.com) captcha for Q2A.
 - [Logical Captcha](https://github.com/amiyasahu/q2a-logical-captcha) by [Amiya Sahu](http://amiyasahu.com/). Shows simple logical questions from [Text CAPTCHA](http://textcaptcha.com) as a captcha challenge.
 - [Spammer Checker](https://github.com/sawtoothsoftware/Q2A-Spammer-Checker) by Walter Williams @ [Sawtooth Software](http://www.sawtoothsoftware.com/). On IP address pages, checks [stopforumspam.com](http://www.stopforumspam.com/) and [botscout.com](http://botscout.com/) to see if the IP belong to a known spammer.
+- [SRS - SPAM Registration Stopper](https://www.question2answer.org/qa/98717) by [pupi1985](https://www.question2answer.org/qa/user/pupi1985). Prevents highly probable SPAM registrations based on well-known SPAM checking services.
 - [Stop-spam](https://github.com/ProThoughts/q2apro-stop-spam) by [q2apro.com](https://github.com/q2apro). An easy to use customizable captcha with a honeypot that keeps 99 % of the daily spam away.
 
 ## Administrative tools
