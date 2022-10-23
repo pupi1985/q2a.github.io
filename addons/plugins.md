@@ -167,7 +167,7 @@ To install a plugin (requires Q2A 1.3 or later), place its directory in Q2A's `q
 ## Anti-spam tools
 
 - [Akismet Plugin](http://qcybb.com/question2answer-akismet-plugin/) by [Dave Hannon](http://qcybb.com/). Uses the [Akismet](http://akismet.com/) spam filtering service to detect spammy posts and queue them for moderation.
-- [AntiBot Captcha](https://github.com/KrzysztofKielce/q2a-captcha-antibot) by [Krzysztof Kielce](http://www.question2answer.org/qa/user/Krzysztof+Kielce). Simple and easy captcha for Q2A 1.5+.
+- [AntiBot Captcha](https://github.com/KrzysztofKielce/q2a-captcha-antibot) by [Krzysztof Kielce](http://www.question2answer.org/qa/user/Krzysztof+Kielce). Simple and easy captcha for Q2A 1.5+. Also [forked here](https://github.com/pupi1985/q2a-kk-abc) by [pupi1985](https://www.question2answer.org/qa/user/pupi1985).
 - [Bootstrap reCAPTCHA](https://github.com/amiyasahu/q2a-bootstrap-recaptcha) by [Amiya Sahu](http://amiyasahu.com/). A version of the default reCAPTCHA plugin that works well with Bootstrap-based themes.
 - [KeyCAPTCHA Captcha](https://github.com/spd-name/q2a-captcha-keycaptcha) by [Andrey Gvosdev](http://spd.name). Provides the [KeyCAPTCHA](https://www.keycaptcha.com) captcha for Q2A.
 - [Logical Captcha](https://github.com/amiyasahu/q2a-logical-captcha) by [Amiya Sahu](http://amiyasahu.com/). Shows simple logical questions from [Text CAPTCHA](http://textcaptcha.com) as a captcha challenge.
