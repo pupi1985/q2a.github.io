@@ -155,6 +155,7 @@ To install a plugin (requires Q2A 1.3 or later), place its directory in Q2A's `q
 - [Category Email Notifications](https://github.com/dunse/qa-category-email-notifications) by Pehr Johansson. Emails new questions in a category to all users who favorited that category.
 - [Email Formatting](https://github.com/ruuttt/q2a-email-formating) by Ruut Brandsma @ [Ecofys](http://www.ecofys.com/). Allows HTML formatting to be used in notification emails.
 - [Email Notifications](https://github.com/sawtoothsoftware/Q2A-Email-Notifications) by Walter Williams @ [Sawtooth Software](http://www.sawtoothsoftware.com/). Allows users to receive notifications about new questions and answers.
+- [FNS - Flexible Notifications System](https://www.question2answer.org/qa/112052) by [pupi1985](https://www.question2answer.org/qa/user/pupi1985). Allows users to receive notifications in a flexible and efficient way.
 - [Follow Question](https://github.com/ProThoughts/q2apro-follow-question) by [q2apro.com](https://github.com/q2apro).
 - [On-Site Notifications](https://github.com/q2apro/q2apro-on-site-notifications) by [q2apro.com](https://github.com/q2apro). Pop-up notifications on the page which can replace email notifications.
 - [Remind Users](https://github.com/yshiga/q2apro-remind-users) by [q2apro.com](https://github.com/q2apro). Reminds users to complete their profile and upload an avatar within X hours after registration.
